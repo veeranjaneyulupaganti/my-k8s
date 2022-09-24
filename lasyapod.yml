@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: lasya-pod
+  name: my-pod
 spec:
   containers:
   - name: first-container
