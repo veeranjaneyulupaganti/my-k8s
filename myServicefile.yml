@@ -6,10 +6,9 @@ metadata:
     app:  lasyapod
 spec:
   type: 
-  selector:
-    app: lasyapod
   ports:
   - port: 80
     nodetPort: 30001
     protocol: TCP
-
+  selector:
+    app: lasyapod
