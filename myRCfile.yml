@@ -1,0 +1,18 @@
+apiVersion: v1
+kind: ReplicationController
+metadata:
+  name: lasya-rc
+spec:
+  replicas: 3
+  selector:
+    app: lasyapod
+  template:
+    metadata:
+      labels:
+        app: lasyapod
+    spec:
+      containers:
+        - name: mycontainer
+          image: nginx
+          ports:
+            - containerPort: 80
