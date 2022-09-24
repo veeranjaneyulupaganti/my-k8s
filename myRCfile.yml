@@ -3,7 +3,7 @@ kind: ReplicationController
 metadata:
   name: lasya-rc
 spec:
-  replicas: 2
+  replicas: 6
   selector:
     app: lasyapod
   template:
