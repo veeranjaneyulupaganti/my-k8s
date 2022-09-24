@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: lasya-service
+  labels:
+    app:  lasyapod
+spec:
+  type: 
+  selector:
+    app: lasyapod
+  ports:
+  - port: 80
+    nodetPort: 30001
+    protocol: TCP
+
