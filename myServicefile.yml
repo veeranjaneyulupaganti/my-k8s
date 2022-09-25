@@ -4,7 +4,6 @@ metadata:
    name: lasya-service
    labels:
      app: lasyapod
-     version: 2.6.1
 spec:
   type: NodePort
   ports:
@@ -13,4 +12,3 @@ spec:
     protocol: TCP
   selector:
      app: lasyapod
-     version: 2.6.1
