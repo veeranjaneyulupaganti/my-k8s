@@ -4,11 +4,14 @@ metadata:
    name: lasya-service
    labels:
      app: lasyapod
+     version: 2.6.1
 spec:
   type: NodePort
   ports:
-  - port: 80
+  - port: 8080
     nodePort: 30001
     protocol: TCP
   selector:
-     app: lasyapod
+     app: lasyapod 
+     version: 2.6.1
+    
