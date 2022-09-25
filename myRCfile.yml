@@ -14,7 +14,7 @@ spec:
         version: 2.6.1
     spec:
       containers:
-        - name: maha4iac/myonlinebooking:01
+        - name: maha4iac/myonlinebooking:1
           image: nginx
           ports:
             - containerPort: 8080
