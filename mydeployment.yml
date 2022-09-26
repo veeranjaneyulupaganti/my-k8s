@@ -1,0 +1,21 @@
+apiVerson: apps/v1
+kind: Deployment
+metadata:
+  name: lasya-deploy
+  labels:
+    app: myjavaapp
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: myjavaapp
+  template:
+    metadata:
+      labels:
+        app: myjavaapp
+    spec:
+      containers:
+      - name: myjavaapp-container
+        image: veeranjaneyulupagant/veeranjaneyulupagant180922
+        ports:
+        - containerPort: 8080
