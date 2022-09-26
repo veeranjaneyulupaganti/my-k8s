@@ -16,6 +16,6 @@ metadata:
     spec:
       containers:
       - name: myjavaapp-container
-        image: veeranjaneyulupagant/veeranjaneyulupagant180922
+        image: nginx
         ports:
         - containerPort: 8080
