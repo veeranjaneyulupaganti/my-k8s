@@ -6,7 +6,7 @@ spec:
  containers:
    - name: myfirst-container
      image: nginx
- containers:
+     containers:
    - name: mysecond-container
      image: nginx
 
