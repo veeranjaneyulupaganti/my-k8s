@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: veeranjaneyulupagant/veera29sep22:2
+        image: veeranjaneyulupagant/veera29sep22:1
         ports:
         - containerPort: 8080
