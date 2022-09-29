@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Deployment
 metadata:
-  name: lasyadeploy
+  name: mydeployment
   labels:
     app: myjavaapp
   spec:
